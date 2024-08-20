@@ -2,80 +2,221 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Inicial</title>
+    <title>Página Inicial - Autismo Questionário</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
         }
 
-        /* Estilo do menu */
+        /* Menu de navegação */
         .navbar {
-            background-color: #480d0d;
+            width: 100%;
+            background-color: #2196F3;
             overflow: hidden;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
         }
-        /*responsavel pela cor da letra da menu*/
+
         .navbar a {
             float: left;
-            display: block;
-            color: #fff700;
-            text-align: center;
-            padding: 14px 20px;
+            margin-left: 20px;
+            color: #ffffff;
             text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
         }
 
         .navbar a:hover {
-            background-color: #4cc823;
-            color: rgb(167, 26, 26);
+            color: #FFEB3B;
         }
 
-        .container {
-            padding: 20px;
+        /* Banner principal */
+        .banner {
+            background-image: url('<img src="   " alt="Descrição da imagem">'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
             text-align: center;
+            padding-top: 60px; /* Ajusta a posição do conteúdo para não ficar sob o menu */
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        .banner h1 {
+            font-size: 4em;
+            margin: 0;
+            color: #FFEB3B;
         }
 
-        p {
-            font-size: 18px;
-            color: #4400ff;
+        .banner p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #1b0606;
+        }
+
+        .banner .cta {
+            padding: 15px 30px;
+            background-color: hsl(122, 39%, 49%);
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .banner .cta:hover {
+            background-color: #388E3C;
+        }
+
+        /* Seção explicativa */
+        .about {
+            padding: 50px;
+            text-align: center;
+            background-color: #FFEB3B;
+            color: #333;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        /* Seção de Perguntas Frequentes */
+        .faq {
+            padding: 50px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .faq h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            background-color: #2196F3;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .faq-item h3 {
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #FFEB3B;
+        }
+
+        .faq-item p {
+            display: none;
+            margin-top: 10px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        /* Rodapé */
+        .footer {
+            background-color: #2196F3;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #333;
+        }
+
+        .footer a {
+            color: #0026ff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    
 
-    <!-- Conteúdo da página -->
-    <div class="container">
-
-<!-- Menu de navegação -->
-<div class="navbar">
-    <a href="pagina">Início</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="servicos">Serviços</a>
-    <a href="contato">Contato</a>
-    
-</div>
-
-
-        <img src="img/inicio.jpeg" alt="Descrição da Imagem">
-        <p>
-            Neste site, oferecemos um questionário que pode ajudar você a identificar possíveis sinais de autismo 
-            em seu filho. Nosso objetivo não é fornecer um diagnóstico, mas sim oferecer uma ferramenta que 
-            pode servir como um ponto de partida. Com as informações coletadas, você poderá ter uma base sólida 
-            para decidir se é necessário procurar um especialista para uma avaliação mais detalhada.
-             Aproveite este recurso para entender melhor o comportamento do seu filho e dar 
-             o próximo passo com mais
-              confiança.
-
-        </p>
+    <!-- Menu de navegação -->
+    <div class="navbar">
+        <a href="index.html">Início</a> 
+        <a href="sobre.html">Sobre</a>
+        <a href="serviso.html">Serviço</a>
+        <a href="contato.html">Contato</a>
     </div>
+
+    <!-- Banner principal -->
+    <div class="banner">
+        <div>
+            <h1>Descubra Mais Sobre o Autismo</h1>
+            <p>Faça Nosso Questionário</p>
+            <a href="questionario.html" class="cta">Iniciar Questionário</a>
+        </div>
+    </div>
+
+    <!-- Seção explicativa -->
+    <div class="about">
+        <h2>Entenda o Propósito do Nosso Questionário</h2>
+        <p>Nosso questionário é uma ferramenta para ajudar a identificar possíveis sinais de autismo. Ele não substitui uma avaliação profissional, mas pode ser um ponto de partida para entender melhor o comportamento do seu filho.</p>
+    </div>
+
+    <!-- Seção de Perguntas Frequentes -->
+    <div class="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-item">
+            <h3>O que é autismo?</h3>
+            <p>O autismo é uma condição neurológica que afeta a forma como uma pessoa percebe o mundo e interage com outras pessoas.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Quais são os primeiros sinais?</h3>
+            <p>Os primeiros sinais podem incluir dificuldade na comunicação, interação social limitada e comportamentos repetitivos.</p>
+        </div>
+        <div class="faq-item">
+            <h3>O questionário fornece um diagnóstico?</h3>
+            <p>Não, o questionário é apenas uma ferramenta inicial para ajudar a identificar sinais. Para um diagnóstico preciso, consulte um profissional de saúde.</p>
+        </div>
+        
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>&copy; 2024 Autismo Questionário. Todos os direitos reservados.</p>
+        <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="termos-uso.html">Termos de Uso</a></p>
+    </div>
+
+    <script>
+        // JavaScript para alternar a exibição das respostas nas perguntas frequentes
+        const faqItems = document.querySelectorAll('.faq-item h3');
+        faqItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const sibling = item.nextElementSibling;
+                sibling.style.display = sibling.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>
+
 </body>
 
 </html>

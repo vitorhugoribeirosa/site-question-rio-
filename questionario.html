@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário sobre Autismo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffae6;
+            color: #333;
+            padding: 20px;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+        }
+        form {
+            max-width: 800px;
+            margin: auto;
+        }
+        .pergunta-container {
+            background-color: #f2f2f2;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .pergunta-container:nth-child(odd) {
+            background-color: #e0f7fa;
+        }
+        .pergunta-container:nth-child(even) {
+            background-color: #ffe0b2;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        /* Estilo para o menu de navegação */
+        .navbar {
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #0056b3;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <div class="navbar">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="serviso.html">Serviço</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    
+    
+
+    <form id="questionario">
+        <h2>Questionário sobre Autismo (M-CHAT)</h2>
+
+        <!-- Perguntas do M-CHAT -->
+        <div class="pergunta-container">
+            <label for="pergunta1">1. A criança demonstra interesse em brincar com outros, como correr ou brincar de esconde-esconde?</label>
+            <input type="radio" id="sim1" name="pergunta1" value="sim">
+            <label for="sim1">Sim</label>
+            <input type="radio" id="nao1" name="pergunta1" value="nao">
+            <label for="nao1">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta2">2. A criança usa um olhar para chamar sua atenção para algo?</label>
+            <input type="radio" id="sim2" name="pergunta2" value="sim">
+            <label for="sim2">Sim</label>
+            <input type="radio" id="nao2" name="pergunta2" value="nao">
+            <label for="nao2">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta3">3. A criança faz gestos para mostrar objetos ou coisas que deseja?</label>
+            <input type="radio" id="sim3" name="pergunta3" value="sim">
+            <label for="sim3">Sim</label>
+            <input type="radio" id="nao3" name="pergunta3" value="nao">
+            <label for="nao3">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta4">4. A criança reage ao seu nome quando é chamado?</label>
+            <input type="radio" id="sim4" name="pergunta4" value="sim">
+            <label for="sim4">Sim</label>
+            <input type="radio" id="nao4" name="pergunta4" value="nao">
+            <label for="nao4">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta5">5. A criança aponta para objetos para mostrar interesse?</label>
+            <input type="radio" id="sim5" name="pergunta5" value="sim">
+            <label for="sim5">Sim</label>
+            <input type="radio" id="nao5" name="pergunta5" value="nao">
+            <label for="nao5">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta6">6. A criança sorri para você de volta quando você sorri para ela?</label>
+            <input type="radio" id="sim6" name="pergunta6" value="sim">
+            <label for="sim6">Sim</label>
+            <input type="radio" id="nao6" name="pergunta6" value="nao">
+            <label for="nao6">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta7">7. A criança reage a sons altos ou repentinamente?</label>
+            <input type="radio" id="sim7" name="pergunta7" value="sim">
+            <label for="sim7">Sim</label>
+            <input type="radio" id="nao7" name="pergunta7" value="nao">
+            <label for="nao7">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta8">8. A criança gosta de brincar com outros de forma interativa, como com brinquedos ou jogos?</label>
+            <input type="radio" id="sim8" name="pergunta8" value="sim">
+            <label for="sim8">Sim</label>
+            <input type="radio" id="nao8" name="pergunta8" value="nao">
+            <label for="nao8">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta9">9. A criança tenta imitar sons ou palavras que você faz?</label>
+            <input type="radio" id="sim9" name="pergunta9" value="sim">
+            <label for="sim9">Sim</label>
+            <input type="radio" id="nao9" name="pergunta9" value="nao">
+            <label for="nao9">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta10">10. A criança se interessa por brinquedos que se movem ou fazem barulho?</label>
+            <input type="radio" id="sim10" name="pergunta10" value="sim">
+            <label for="sim10">Sim</label>
+            <input type="radio" id="nao10" name="pergunta10" value="nao">
+            <label for="nao10">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta11">11. A criança mostra preocupação quando alguém está chorando ou com dor?</label>
+            <input type="radio" id="sim11" name="pergunta11" value="sim">
+            <label for="sim11">Sim</label>
+            <input type="radio" id="nao11" name="pergunta11" value="nao">
+            <label for="nao11">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta12">12. A criança reage quando você faz uma expressão facial divertida ou engraçada?</label>
+            <input type="radio" id="sim12" name="pergunta12" value="sim">
+            <label for="sim12">Sim</label>
+            <input type="radio" id="nao12" name="pergunta12" value="nao">
+            <label for="nao12">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta13">13. A criança se diverte com jogos simples de imitação, como 'cachorrinho' ou 'brincar de casinha'?</label>
+            <input type="radio" id="sim13" name="pergunta13" value="sim">
+            <label for="sim13">Sim</label>
+            <input type="radio" id="nao13" name="pergunta13" value="nao">
+            <label for="nao13">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta14">14. A criança interage com brinquedos de forma adequada ou apenas os alinha?</label>
+            <input type="radio" id="sim14" name="pergunta14" value="sim">
+            <label for="sim14">Sim</label>
+            <input type="radio" id="nao14" name="pergunta14" value="nao">
+            <label for="nao14">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta15">15. A criança busca sua atenção quando realiza algo novo?</label>
+            <input type="radio" id="sim15" name="pergunta15" value="sim">
+            <label for="sim15">Sim</label>
+            <input type="radio" id="nao15" name="pergunta15" value="nao">
+            <label for="nao15">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta16">16. A criança gosta de participar em jogos de 'faz de conta' ou 'imitação'?</label>
+            <input type="radio" id="sim16" name="pergunta16" value="sim">
+            <label for="sim16">Sim</label>
+            <input type="radio" id="nao16" name="pergunta16" value="nao">
+            <label for="nao16">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta17">17. A criança parece olhar no olho quando você fala com ela?</label>
+            <input type="radio" id="sim17" name="pergunta17" value="sim">
+            <label for="sim17">Sim</label>
+            <input type="radio" id="nao17" name="pergunta17" value="nao">
+            <label for="nao17">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta18">18. A criança parece entender o que você diz sem precisar de muitos gestos?</label>
+            <input type="radio" id="sim18" name="pergunta18" value="sim">
+            <label for="sim18">Sim</label>
+            <input type="radio" id="nao18" name="pergunta18" value="nao">
+            <label for="nao18">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta19">19. A criança se mostra confortável em novas situações ou em mudanças de rotina?</label>
+            <input type="radio" id="sim19" name="pergunta19" value="sim">
+            <label for="sim19">Sim</label>
+            <input type="radio" id="nao19" name="pergunta19" value="nao">
+            <label for="nao19">Não</label>
+        </div>
+
+        <div class="pergunta-container">
+            <label for="pergunta20">20. A criança tenta se comunicar de forma adequada, mesmo que não consiga falar?</label>
+            <input type="radio" id="sim20" name="pergunta20" value="sim">
+            <label for="sim20">Sim</label>
+            <input type="radio" id="nao20" name="pergunta20" value="nao">
+            <label for="nao20">Não</label>
+        </div>
+
+        <button type="button" onclick="calcularResultado()">Enviar Respostas</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script>
+        function calcularResultado() {
+            let respostasNao = 0;
+            const totalPerguntas = 20;
+
+            for (let i = 1; i <= totalPerguntas; i++) {
+                const resposta = document.querySelector(`input[name="pergunta${i}"]:checked`);
+                if (resposta && resposta.value === "nao") {
+                    respostasNao++;
+                }
+            }
+
+            const percentualRisco = (respostasNao / totalPerguntas) * 100;
+            let mensagem = "";
+
+            if (percentualRisco >= 75) {
+                mensagem = "Alto risco de autismo. Recomendamos procurar um especialista.";
+            } else if (percentualRisco >= 50) {
+                mensagem = "Risco moderado de autismo. Observe e procure orientação médica se necessário.";
+            } else {
+                mensagem = "Baixo risco de autismo. Continue observando o desenvolvimento da criança.";
+            }
+
+            document.getElementById("resultado").innerHTML = `
+                <div style="text-align: center; margin-top: 20px;">
+                    <h3>Resultado</h3>
+                    <p>${mensagem}</p>
+                    <p>Percentual de Risco: ${percentualRisco.toFixed(2)}%</p>
+                </div>`;
+        }
+    </script>
+</body>
+</html>
