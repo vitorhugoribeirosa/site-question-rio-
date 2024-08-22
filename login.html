@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Autismo Questionário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            color: #333;
+            text-align: center;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #0b7dda;
+        }
+
+        .login-container .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-container .register-link a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        .login-container .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Faça seu Login</h2>
+        <form action="dashboard.html" method="post">
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <input type="submit" value="Entrar">
+        </form>
+        <div class="register-link">
+            <p>Não tem uma conta? <a href="register.html">Crie uma aqui</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

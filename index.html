@@ -1,13 +1,11 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Autismo Questionário</title>
+    <!-- Link para o Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -41,9 +39,25 @@
             color: #FFEB3B;
         }
 
+        /* Ícone de login no menu */
+        .navbar .login-icon {
+            float: right;
+            margin-right: 20px;
+            font-size: 1.5em;
+        }
+
+        .navbar .login-icon a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar .login-icon a:hover {
+            color: #FFEB3B;
+        }
+
         /* Banner principal */
         .banner {
-            background-image: url('<img src="   " alt="Descrição da imagem">'); /* Substitua pelo caminho da sua imagem */
+            background-image: url('caminho/para/sua/imagem.jpg'); /* Substitua pelo caminho da sua imagem */
             background-size: cover;
             background-position: center;
             height: 80vh;
@@ -160,8 +174,12 @@
     <div class="navbar">
         <a href="index.html">Início</a> 
         <a href="sobre.html">Sobre</a>
-        <a href="serviso.html">Serviço</a>
+        <a href="servicos.html">Serviços</a>
         <a href="contato.html">Contato</a>
+        <!-- Ícone de login -->
+        <div class="login-icon">
+            <a href="login.html"><i class="fas fa-user"></i> Login</a>
+        </div>
     </div>
 
     <!-- Banner principal -->
@@ -184,17 +202,16 @@
         <h2>Perguntas Frequentes</h2>
         <div class="faq-item">
             <h3>O que é autismo?</h3>
-            <p>O autismo é uma condição neurológica que afeta a forma como uma pessoa percebe o mundo e interage com outras pessoas.</p>
+            <p>O autismo, ou Transtorno do Espectro Autista (TEA), é uma condição que afeta o desenvolvimento neurológico de uma pessoa, influenciando a maneira como ela percebe o mundo e interage com os outros...</p>
         </div>
         <div class="faq-item">
             <h3>Quais são os primeiros sinais?</h3>
-            <p>Os primeiros sinais podem incluir dificuldade na comunicação, interação social limitada e comportamentos repetitivos.</p>
+            <p>O autismo, ou Transtorno do Espectro Autista, apresenta uma ampla gama de sintomas, que variam de pessoa para pessoa. No entanto, existem algumas características principais que são comumente observadas...</p>
         </div>
         <div class="faq-item">
             <h3>O questionário fornece um diagnóstico?</h3>
-            <p>Não, o questionário é apenas uma ferramenta inicial para ajudar a identificar sinais. Para um diagnóstico preciso, consulte um profissional de saúde.</p>
+            <p>Este questionário foi desenvolvido como uma ferramenta de triagem inicial para ajudar a identificar sinais que podem estar associados ao Transtorno do Espectro Autista (TEA)...</p>
         </div>
-        
     </div>
 
     <!-- Rodapé -->
@@ -202,24 +219,6 @@
         <p>&copy; 2024 Autismo Questionário. Todos os direitos reservados.</p>
         <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="termos-uso.html">Termos de Uso</a></p>
     </div>
-
-    <script>
-        // JavaScript para alternar a exibição das respostas nas perguntas frequentes
-        const faqItems = document.querySelectorAll('.faq-item h3');
-        faqItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const sibling = item.nextElementSibling;
-                sibling.style.display = sibling.style.display === 'block' ? 'none' : 'block';
-            });
-        });
-    </script>
-
-</body>
-</html>
-
-</body>
-
-</html>
 
 </body>
 </html>
